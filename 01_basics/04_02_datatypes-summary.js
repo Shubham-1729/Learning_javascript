@@ -33,4 +33,28 @@ console.log(typeof id);
 console.log(typeof heros)
 
 
+// *********************** Memory ********************************
+
+// stack (Primitive), Heap (Non Primitive)
+
+let myYoutubemname = "shubham_yt_channel"
+let anothername = myYoutubemname
+anothername = "Youtube_Channel 2"
+console.log(myYoutubemname);
+console.log(anothername
+);
+
+let user1 = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+let user2 = user1
+user2.email = "shubham@google.com"
+console.log(user1);
+console.log(user2);
+
+
+
+
+
 
