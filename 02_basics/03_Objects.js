@@ -25,7 +25,7 @@ console.log(typeof Jsuser.mysym);
 
 Jsuser.email = "Shubham@chatgpt.com"
 console.log(Jsuser.email);
-// Object.freeze(Jsuser);
+Object.freeze(Jsuser);
 Jsuser.email = "shubham@hotmail.com"
 console.log(Jsuser.email);
 
@@ -39,6 +39,15 @@ Jsuser.greetingTwo = function(){
 console.log(Jsuser.greeting());
 console.log(Jsuser.greetingTwo());
 
+// const obj ={
+//     a: 1,
+//     b:2,
+//     sum(){
+//         return this.a + this.b
+//     }
+// }
+// const res = obj.sum;
+// console.log(res());
 
 
 
