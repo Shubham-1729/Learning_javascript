@@ -6,7 +6,7 @@ const myObject = {
 }
 
 for (const key in myObject) {
-        // console.log(key, ':-', myObject[key]);
+        console.log(key, ':-', myObject[key]);
     }
 
 const programming = ["js", "rb", "py", "java", "cpp"]

@@ -7,14 +7,18 @@ const arr = new Array(1,2,3,4,5)
 // console.log(arr[2]);
 
 // Array methods
-
+  
 // arr.push(6)
 // arr.push(13)
+// arr.push(0)
 // arr.pop()
+// console.log(arr);
 
 
 // arr.unshift(18)
 // arr.shift()
+// console.log(arr);
+
 
 // console.log(arr.includes(9));
 // console.log(arr.indexOf(18));
@@ -41,7 +45,7 @@ console.log("C", arr);
 
 // Difference between slice and splice
 
-// slice does not modify the code while slice does # imp for interview purpose
+// slice does not modify the code while splice does # imp for interview purpose
 
 
 

@@ -11,6 +11,12 @@ const id = Symbol('123')
 const anotherId = Symbol('123')
 console.log(id == anotherId)
 
+
+// | Code                                      | Result  | Reason                        
+// | `Symbol('123') === Symbol('123')`         | `false` | Each call creates a new unique symbol             |
+// | `Symbol.for('123') === Symbol.for('123')` | `true`  | Both get the same symbol from the global registry |
+
+
 // Reference(Non primitive)
 
 // Array, Objects, Functions

@@ -16,7 +16,7 @@ const newString = gameName.substring(0,4) // if we use negative value here it wi
                                         //the index and start from 0
 console.log(newString);
 
-const anotherString = gameName.slice(-6,4)
+const anotherString = gameName.slice(-10,8)
 console.log(anotherString);
 
 const newString1 = "   Shubham   "
@@ -28,7 +28,7 @@ console.log(newString1.trimEnd());
 const url = "https://shubham.com/shubham%20kumar"
 
 console.log(url.replace('%20','-'));
-console.log(url); // since const is a primitve data type but still it does not changes the original string cuz it returning it as new string so consoling it does not modify the original one.
+console.log(url);
 
 console.log(url.includes('shubham'));
 

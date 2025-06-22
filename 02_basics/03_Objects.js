@@ -25,7 +25,7 @@ console.log(typeof Jsuser.mysym);
 
 Jsuser.email = "Shubham@chatgpt.com"
 console.log(Jsuser.email);
-Object.freeze(Jsuser);
+// Object.freeze(Jsuser);
 Jsuser.email = "shubham@hotmail.com"
 console.log(Jsuser.email);
 
